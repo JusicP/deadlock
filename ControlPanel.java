@@ -11,7 +11,6 @@
 
 import java.applet.* ;
 import java.awt.* ;
-import Kernel ;
 
 public class ControlPanel extends Frame
 {

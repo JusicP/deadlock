@@ -16,7 +16,6 @@ import java.awt.Label ;
 import java.awt.Panel ;
 import java.awt.TextField ;
 import java.util.Vector ;
-import Resource ;
 
 public class ResourcesDialog extends Dialog
 {

@@ -18,7 +18,6 @@ import java.awt.Panel ;
 import java.awt.TextField ;
 import java.io.File ;
 import java.util.Vector ;
-import Process ;
 
 public class ProcessesDialog extends Dialog
 {

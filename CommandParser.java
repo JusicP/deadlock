@@ -105,6 +105,15 @@ public class CommandParser
     return new Command( commandLetter, commandNumber ) ;
   }
 
+  public void resetStream() {
+    try {
+      inputStream.mark(0);
+      inputStream.reset();
+    } catch (IOException e) {
+      throw new RuntimeException(e);
+    }
+  }
+
   public static void main( String args[] ) 
   {
     String f = args[0] ;

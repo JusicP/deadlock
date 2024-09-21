@@ -5,9 +5,6 @@
  *
  */
 
-import Kernel ;
-import ControlPanel ;
-
 public class deadlock
 {
 

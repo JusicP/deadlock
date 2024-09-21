@@ -18,9 +18,6 @@ import java.util.Vector ;
 import java.lang.Thread ;
 import java.io.IOException ;
 
-import Process ;
-import Resource ;
-
 public class Kernel extends Thread 
 {
   private int time = 0 ; 
